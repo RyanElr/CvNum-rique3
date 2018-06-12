@@ -1,8 +1,12 @@
 body
 {
-  background-image: url("Zoe.jpg");
+  background-image: url("Zoe.png");
   background-size: 2100px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
 }
 .bc1
 {
@@ -10,8 +14,8 @@ body
 }
 .grid-container {
   display: grid;
-  grid-column-gap: 20px;
-  grid-template-columns: auto auto auto;
+  grid-column-gap: 30px;
+  grid-template-columns: auto auto auto auto auto ;
   padding: 5px;
 }
 .grid-item {
@@ -23,15 +27,20 @@ body
 h1
 {
   text-shadow: 2px 2px 4px black;
-  font-size: 30px
+  font-size: 50px;
+  color: #ff9900
 }
 ul
 {
-  font-size: 20px
+  font-size: 25px;
+  color: #ff9900;
+  text-shadow: 1px 1px 1px black;
 }
 p
 {
-  font-size: 22px
+  font-size: 25px;
+  color: #ff9900;
+  text-shadow: 2px 2px 2px black;
 }
 .navDiv ul {
 
@@ -64,53 +73,32 @@ body {
 
     font-family: 'Reactor7', monospace;
     text-shadow: 1px 1px 1px rgba(20,20,20,1);
-
-}
-body {
-
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
+  }
 
-}
-h2
-{
-  font-size: 50px
-}
 h2
 {
   text-shadow: 2px 2px 4px black;
+  font-size: 50px;
+  color: #ff5050
 }
-ul
-{
-  color: #ff9900
-}
-ul
-{
-  text-shadow: 1px 1px 1px black;
-}
-p{
-  color: #ff9900
-}
-p{
-  text-shadow: 2px 2px 2px black;
-}
-h1
-{
-  color: #ff9900
-}
-body {
-...
-background-image: url("Zoe.jpg");
-background-attachment: fixed;
-background-size: cover;
-background-position: center center;
-}
+.starter-template {
 
-#background_opacity {
-position: fixed;
-z-index: 0;
-top: 0; left: 0; right: 0; bottom: 0;
-background-color: rgba(150, 150, 150, 0.2);
+  padding: 40px 15px;
+
+  text-align: center;
+}
+ body {
+   background-size: 3850px;
+ }
+}
+.row [class^="col-"] {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #ddd;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
 }
