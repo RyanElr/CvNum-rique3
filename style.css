@@ -1,0 +1,116 @@
+body
+{
+  background-image: url("Zoe.jpg");
+  background-size: 2100px;
+  background-repeat: no-repeat;
+}
+.bc1
+{
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+h1
+{
+  text-shadow: 2px 2px 4px black;
+  font-size: 30px
+}
+ul
+{
+  font-size: 20px
+}
+p
+{
+  font-size: 22px
+}
+.navDiv ul {
+
+    margin-left: 20px;
+    padding-right: 40px;
+
+}.list-unstyled {
+
+    padding-left: 0;
+    list-style: none;
+
+}
+ol, ul {
+
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+div.navDiv {
+
+    line-height: 42px;
+
+}
+.blue-bg {
+
+    color: white;
+
+}
+body {
+
+    font-family: 'Reactor7', monospace;
+    text-shadow: 1px 1px 1px rgba(20,20,20,1);
+
+}
+body {
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+
+}
+h2
+{
+  font-size: 50px
+}
+h2
+{
+  text-shadow: 2px 2px 4px black;
+}
+ul
+{
+  color: #ff9900
+}
+ul
+{
+  text-shadow: 1px 1px 1px black;
+}
+p{
+  color: #ff9900
+}
+p{
+  text-shadow: 2px 2px 2px black;
+}
+h1
+{
+  color: #ff9900
+}
+body {
+...
+background-image: url("Zoe.jpg");
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+}
+
+#background_opacity {
+position: fixed;
+z-index: 0;
+top: 0; left: 0; right: 0; bottom: 0;
+background-color: rgba(150, 150, 150, 0.2);
+}
